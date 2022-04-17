@@ -22,6 +22,5 @@ while True:
         cv2.putText(img, myData, (pts2[0], pts2[1]), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 255), 4)
     cv2.imshow('Result', img)
     if cv2.waitKey(1) == 27:    # 'Esc' is pressed
-        cv2.destroyAllWindows()
         break
 
