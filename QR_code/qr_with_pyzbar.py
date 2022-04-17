@@ -24,3 +24,4 @@ while True:
     if cv2.waitKey(1) == 27:    # 'Esc' is pressed
         cv2.destroyAllWindows()
         break
+
